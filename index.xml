@@ -5,23 +5,14 @@
     <link>https://1935868896.github.io/</link>
     <description>Recent content on java学习</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://1935868896.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://1935868896.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>springboot如何使用mybatis plus</title>
-      <link>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis-plus/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis-plus/</guid>
-      <description>依赖 &amp;lt;!--mybatis-plus--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.baomidou&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-plus-boot-starter&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.4.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--mysql--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.1.32&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--代码生成器--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.baomidou&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-plus-generator&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.4.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--velocity--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.velocity&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;velocity-engine-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--freemarker--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.freemarker&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;freemarker&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3.30&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!-- https://mvnrepository.com/artifact/org.projectlombok/lombok --&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.projectlombok&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;lombok&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.18.12&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;provided&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; 代码自动生成器 import com.baomidou.mybatisplus.core.toolkit.StringPool; import com.baomidou.mybatisplus.generator.AutoGenerator; import com.baomidou.mybatisplus.generator.InjectionConfig; import com.baomidou.mybatisplus.generator.config.*; import com.baomidou.mybatisplus.generator.config.po.TableInfo; import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy; import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine; import java.util.ArrayList; import java.util.List; /** * @author ZhangC * @create 2020-09-27-11:26 */ public class CodeGenerator { //1.</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>git学习</title>
       <link>https://1935868896.github.io/post/git%E6%93%8D%E4%BD%9C%E6%80%BB%E7%BB%93/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Mar 2021 11:30:03 +0000</pubDate>
       
       <guid>https://1935868896.github.io/post/git%E6%93%8D%E4%BD%9C%E6%80%BB%E7%BB%93/</guid>
-      <description>git学习 由于之前使用svn,最近改用git,虽然也用过一段时间git,但这前大部分时候都是在单人使用github,因此在这里好好学习一下git的相关操作,并对git的操作进行总结.
+      <description>由于之前使用svn,最近改用git,虽然也用过一段时间git,但这前大部分时候都是在单人使用github,因此在这里好好学习一下git的相关操作,并对git的操作进行总结.
 1.git和svn的区别 之前用过svn的可以参考此段.
 区别 此表格出处
     Git(分布式版本控制系统) Svn(集中式版本控制系统)     工作流程 1.写代码2.提交到本地版本库3.从服务器拉回服务器的当前版本库，并解决服务器版本库与本地代码的冲突4.将远程库与本地代码合并结果提交到本地版本库5.将本地版本库推到服务器 1.写代码2.从服务器拉回服务器的当前版本库，并解决服务器版本库与本地代码的冲突3.将本地代码提交到服务器   是否有中央服务器 没有中央服务器，开发人员本地都有 Local Repository 有。开发人员需要从中央服务器获得最新版本的项目然后在本地开发，开发完推送给中央服务器。因此脱离服务器开发者是几乎无法工作的   **网络依赖 ** 分布式在没有网络的情况下也可以执行commit、查看版本提交记录、以及分支操作，在有网络的情况下执行 push 到 Remote Repository。 必须要联网才能工作，而且对网络的依赖性较强，如果推送的文件比较大而且网络状况欠佳，则提交文件的速度会受到很大的限制。   分支操作影响 分支操作不会影响其他开发人员 创建新的分支则所有的人都会拥有和你一样的分支   提交过程 提交是本地操作，需要执行push操作才会到主要版本库 提交的文件会直接记录到中央版本库    理解 在表格中我们看到Git是分布式版本控制系统,而svn是集中式,我们可能会奇怪,svn我们也是多人在不同的电脑上协作啊,但是理解了两者的区别,我们就会发现,svn只有一个中央库,存放在中央服务器中,而git有多个仓库,我们每个人都有自己的个人仓库,也可以创建多个分支.
@@ -32,6 +23,15 @@ svn和git的操作也有不同:
   然后pull,然后解决冲突,最后push
 svn每一次提交都要解决冲突,而git只有我们push的时候或者合并分支的时候才需要解决冲突(单一分支操作),对于git我们可以将一个功能的每一次修改都commit一次而无需解决冲突,直到整个功能开发完成,我们再进行最终的push,这里面深层次的原因就是svn的提交是和服务器交互,而git的提交时本地的i行为,push才是和服务器交互
 2.git的分区    新增文件不在四个区当中 add&amp;mdash;&amp;gt;暂存区     工作区 add&amp;mdash;&amp;gt;暂存区   暂存区 commit&amp;ndash;&amp;gt;本地仓库   本地仓库 push&amp;mdash;&amp;gt;远程仓库   远程仓库     3.</description>
+    </item>
+    
+    <item>
+      <title>springboot如何使用mybatis plus</title>
+      <link>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis-plus/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis-plus/</guid>
+      <description>依赖 &amp;lt;!--mybatis-plus--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.baomidou&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-plus-boot-starter&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.4.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--mysql--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.1.32&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--代码生成器--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.baomidou&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-plus-generator&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.4.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--velocity--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.velocity&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;velocity-engine-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--freemarker--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.freemarker&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;freemarker&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3.30&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!-- https://mvnrepository.com/artifact/org.projectlombok/lombok --&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.projectlombok&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;lombok&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.18.12&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;provided&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; 代码自动生成器 import com.baomidou.mybatisplus.core.toolkit.StringPool; import com.baomidou.mybatisplus.generator.AutoGenerator; import com.baomidou.mybatisplus.generator.InjectionConfig; import com.baomidou.mybatisplus.generator.config.*; import com.baomidou.mybatisplus.generator.config.po.TableInfo; import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy; import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine; import java.util.ArrayList; import java.util.List; /** * @author ZhangC * @create 2020-09-27-11:26 */ public class CodeGenerator { //1.</description>
     </item>
     
     <item>
