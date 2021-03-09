@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on java学习</title>
+    <link>https://1935868896.github.io/post/</link>
+    <description>Recent content in Posts on java学习</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://1935868896.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>springboot如何使用mybatis plus</title>
+      <link>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis-plus/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis-plus/</guid>
+      <description>依赖 &amp;lt;!--mybatis-plus--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.baomidou&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-plus-boot-starter&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.4.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--mysql--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.1.32&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--代码生成器--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.baomidou&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-plus-generator&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.4.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--velocity--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.velocity&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;velocity-engine-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!--freemarker--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.freemarker&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;freemarker&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3.30&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!-- https://mvnrepository.com/artifact/org.projectlombok/lombok --&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.projectlombok&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;lombok&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.18.12&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;provided&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; 代码自动生成器 import com.baomidou.mybatisplus.core.toolkit.StringPool; import com.baomidou.mybatisplus.generator.AutoGenerator; import com.baomidou.mybatisplus.generator.InjectionConfig; import com.baomidou.mybatisplus.generator.config.*; import com.baomidou.mybatisplus.generator.config.po.TableInfo; import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy; import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine; import java.util.ArrayList; import java.util.List; /** * @author ZhangC * @create 2020-09-27-11:26 */ public class CodeGenerator { //1.</description>
+    </item>
+    
+  </channel>
+</rss>

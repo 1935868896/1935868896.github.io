@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on java学习</title>
+    <link>https://1935868896.github.io/tags/</link>
+    <description>Recent content in Tags on java学习</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://1935868896.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mybatis</title>
+      <link>https://1935868896.github.io/tags/mybatis/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://1935868896.github.io/tags/mybatis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring</title>
+      <link>https://1935868896.github.io/tags/spring/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://1935868896.github.io/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数据库</title>
+      <link>https://1935868896.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://1935868896.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
