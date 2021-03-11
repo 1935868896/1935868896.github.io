@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>springboot on java学习</title>
+    <link>https://1935868896.github.io/tags/springboot/</link>
+    <description>Recent content in springboot on java学习</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Mar 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://1935868896.github.io/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mybatis学习</title>
+      <link>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis/</link>
+      <pubDate>Thu, 11 Mar 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://1935868896.github.io/post/springboot-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mybatis/</guid>
+      <description>1.基础配置 导入依赖 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;scope&amp;gt;runtime&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.mybatis.spring.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-spring-boot-starter&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.1.4&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 修改配置  需要注意,mysql5.x和mysql8.x的连接不同
+网上上传代码的时候要注意自己的安全隐私,这里用的本地的数据库,就不进行特意处理了
+ mysql 8.x application.properties
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driverspring.datasource.url=jdbc:mysql://localhost:3306/springboot_learn?serverTimezone=UTC&amp;amp;characterEncoding=utf8&amp;amp;useUnicode=true&amp;amp;useSSL=truespring.datasource.username=rootspring.datasource.password=123456mybatis.type-aliases-package=com.zc.springbootMybatisLearn.entity.*mybatis.mapper-locations=classpath*:mapper/*.xml#开启sql日志功能logging.level.com.xxxx.mapper:debug#开启驼峰映射contextLoads:33, SpringbootMybatisLearnApplicationTests关于日志 可以去idea插件市场 下载Mybatis Log plugin插件
+mysql5.x application.properties
+jdbc.driver-class-name = com.mysql.jdbc.Driverjdbc.jdbc-url = jdbc:mysql://localhost:3306/springboot_learn?useUnicode=true&amp;amp;characterEncoding=utf8&amp;amp;autoReconnect=true&amp;amp;failOverReadOnly2.反向生成 使用mybatis-plugins插件可以实现自动生成
+注意:自动生成使用驼峰原则,下划线后的字母变为大写,其他大写字母变为小写.
+添加依赖:插件
+&amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.mybatis.generator&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis-generator-maven-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.3.2&amp;lt;/version&amp;gt; &amp;lt;configuration&amp;gt; &amp;lt;verbose&amp;gt;true&amp;lt;/verbose&amp;gt; &amp;lt;overwrite&amp;gt;true&amp;lt;/overwrite&amp;gt; &amp;lt;/configuration&amp;gt; &amp;lt;/plugin&amp;gt; 配置generatorConfig.xml
+ 只看和修改带序号的即可 多次使用插件,xml里面的代码会叠加,记住删除或查看 在table下面  &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34; ?&amp;gt; &amp;lt;!DOCTYPE generatorConfiguration PUBLIC &amp;#34;-//mybatis.</description>
+    </item>
+    
+  </channel>
+</rss>
